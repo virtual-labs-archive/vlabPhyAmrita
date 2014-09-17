@@ -1,0 +1,3 @@
+for push
+memmory buffer 
+git config  http.postBuffer 5242880
