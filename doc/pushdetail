@@ -1,3 +1,8 @@
-for push
+or push
 memmory buffer 
 git config  http.postBuffer 5242880
+gvi .git/config
+git add
+git commit
+git push origin master
+
