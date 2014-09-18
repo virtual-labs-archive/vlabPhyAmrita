@@ -1,0 +1,167 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>index</title>
+<script>
+
+   function getValue( name ) {
+   
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+   var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results != null )
+    return results[1];
+  else
+    return false;
+  }
+
+  var URL_param = getValue( 'VideoID' );
+  var title = getValue( 'title' );
+ 
+  if(title=="1"){
+	  title="Separating Components of a Mixture";
+  } else if(title=="2"){
+	  title="Properties of Acids and Bases";
+  }else if(title=="3"){
+	  title="To Study the Properties of Acetic Acid";
+  } else if(title=="4"){
+	  title="Laws of Reflection of Sound";
+  }else if(title=="5"){
+	  title="Determination of Density of Solid";
+  } 
+  else if(title=="6"){
+	  title="Action of Water on Quick Lime";
+  } 
+   else if(title=="7"){
+	  title="Action of Heat on Ferrous Sulphate Crystals";
+  } 
+   else if(title=="8"){
+	  title="Chemical Reaction";
+  } 
+     else if(title=="9"){
+	  title="Bell Jar Experiment";
+  } 
+    else if(title=="10"){
+	  title="Pressure Exerted by a Solid Iron Cuboid on Sand";
+  } 
+      else if(title=="11"){
+	  title="Verification of Archimedes Principle";
+  }
+    else if(title=="12"){
+	  title="Determination of Density of Solid";
+  } 
+    else if(title=="13"){
+	  title="Relative Reactivity of Metals Using Salt Solutions";
+  } 
+   else if(title=="14"){
+	  title="Distinguish Between Mixture and Compound ";
+  } 
+    else if(title=="15"){
+	  title="Equivalent Resistance of Resistors(Series)";
+  } 
+	
+	  else if(title=="16"){
+	  title="Equivalent Resistance of Resistors(Parallel)";
+  } 
+     else if(title=="17"){
+	  title="Newton’s Second Law";
+  } 
+    else if(title=="18"){
+	  title="Melting Point of Ice";
+  } 
+   else if(title=="19"){
+	  title="Boiling Point of Water";
+  } 
+    else if(title=="20"){
+	  title="Iron Nail with Copper ";
+  } 
+     else if(title=="21"){
+	  title="The Reaction of Sodium Sulphate  with Barium Chloride";
+  } 
+	  else if(title=="22"){
+	  title="pH Determination";
+  } 
+    else if(title=="23"){
+	  title="Distinguishing Between Solutions";
+  } 
+   else if(title=="24"){
+	  title="Separation of Mixtures Using Different Techniques";
+  } 
+  else if(title=="25"){
+	  title="Velocity of a Pulse Propagated Through a Slinky";
+  } 
+  else if(title=="26"){
+	  title="Law of Conservation of Mass in Chemical Reaction";
+  } 
+   else if(title=="27"){
+	  title="Saponification-The process of Making Soap";
+  } 
+   else if(title=="28"){
+	  title="Cleaning Capacity of Soap-Hard and Soft Water";
+  } 
+    else if(title=="29"){
+	  title="To Test the Presence of Adulterant Metanil yellow in Dal ";
+  } 
+   else if(title=="30"){
+	  title="To Test the Presence of Starch in a Given Food Sample";
+  } 
+   else if(title=="31"){
+	  title="To Determine the Presence of Water Imbibed by Raisins";
+  } 
+   else if(title=="32"){
+	  title="Importance of Light in Photosynthesis";
+  } 
+  
+	function init() {
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+      draw(ctx);
+	   var canvas = document.getElementById("canvas2");
+      var ctx2 = canvas.getContext("2d");
+
+      draw2(ctx2);
+    }
+
+    function draw(ctx) {
+
+      // layer1/Linked File
+      ctx.save();
+      ctx.save();
+      ctx.transform(1.000, 0.000, 0.000, 1.000, 400.0, 300.0);
+      ctx.drawImage(document.getElementById("image1"), -400.0, -300.0);
+      ctx.restore();
+      ctx.restore();
+    }
+	 function draw2(ctx2) {
+
+      // layer1/Separating components of a mixture sublimation
+      ctx2.save();
+      ctx2.font = "Bold 25.0px 'Times New Roman'";
+      ctx2.fillStyle = "rgb(252, 215, 160)";
+      ctx2.fillText(title, 0.0, 24.9);
+      ctx2.restore();
+    }
+	
+	
+	
+  </script>
+</head>
+<body onLoad="init()">
+<canvas id="canvas" width="800" height="600"></canvas>
+<canvas id="canvas2" style="position:absolute; left:30px; top:15px;  z-index:3;" width="644" height="35"></canvas>
+<img alt="Linked File" id="image1" style="display: none" src="olab_temp.jpg" />
+<script language="javascript" >
+document.write("<iframe  style=\"position:absolute; left:30px; top:60px;  z-index:2;\" width=\"760\" height=\"427.5\" src=\"http:\/\/www.youtube.com\/embed\/"+URL_param+"?controls=0&autoplay=0&showinfo=0&iv_load_policy=3\"  frameborder=\"0\" allowfullscreen><\/iframe>");
+</script>
+</body>
+</html>

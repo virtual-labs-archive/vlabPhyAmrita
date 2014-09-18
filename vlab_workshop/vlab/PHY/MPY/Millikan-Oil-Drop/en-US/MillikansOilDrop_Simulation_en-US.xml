@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="MillikansOilDrop_Simulation.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CHOOSE_OIL">
+        <source>Choose Oil Type :</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_COPYRIGHT">
+        <source>Amrita Vishwa Vidyapeetham</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_DENSITY">
+        <source>Oil Density (kg/m³):</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_FOOTER">
+        <source>Amrita Virtual Lab</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_GLYCERIN">
+        <source>Glycerin</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_HEADING">
+        <source>Millikan&apos;s Oil Drop Experiment</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_MASS">
+        <source>Droplet Mass (kg) =</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_MEASUREMENT">
+        <source>Measurements</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_MERCURY">
+        <source>Mercury</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_OLIVEOIL">
+        <source>Olive Oil</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_PDIS">
+        <source>Plate Distance (m) =</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_START">
+        <source>Start</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_VARIABL">
+        <source>Variables</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_VISCOSITY">
+        <source>Oil Viscosity(N.s.m¯²):</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_VOL_OFF">
+        <source>Voltage Off</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_VOL_ON">
+        <source>Voltage On</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_VOL_SWITCH">
+        <source>Switch ON/OFF Voltage :</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_VOLT">
+        <source>Voltage Applied (V) =</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_VOLT_SLIDER">
+        <source>Adjust Voltage (KV) :</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_XRAY_OFF">
+        <source>X Ray OFF</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_XRAY_ON">
+        <source>X Ray ON</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,99 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Reactivity_of_metals_sim.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_AL_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AL_FERROUS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_AL_ZINC">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ALUMINIUM">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CLICKINFO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INF_AL_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INF_FE_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INF_ZN_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INST1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INST2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INST3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_INST4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_INST5">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_INST22">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_INSTRUCT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_IRON">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_IRON_AL_ZN">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_IRON_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_OVER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_SELECT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_VARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_ZINC">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_ZINC_ALUMINIUM">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_ZINC_COPPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_ZINC_FERROUS">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
